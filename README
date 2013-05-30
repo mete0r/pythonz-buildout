@@ -1,0 +1,5 @@
+a zc.buildout instance to install pythons
+
+virtualenv --distribute .
+bin/pip install zc.buildout
+bin/buildout
